@@ -1,3 +1,10 @@
+### [1.0.3](https://github.com/brunohafonso95/semantic-release-complete-workflow/compare/v1.0.2...v1.0.3) (2020-08-24)
+
+
+### :zap: Refactor
+
+* adjust the preset of release notes stage ([cb43893](https://github.com/brunohafonso95/semantic-release-complete-workflow/commit/cb4389396718f7e3b98a448835f59f02565ffb61))
+
 ## [1.0.2](https://github.com/brunohafonso95/semantic-release-complete-workflow/compare/v1.0.1...v1.0.2) (2020-08-24)
 
 ## [1.0.1](https://github.com/brunohafonso95/semantic-release-complete-workflow/compare/v1.0.0...v1.0.1) (2020-08-24)
