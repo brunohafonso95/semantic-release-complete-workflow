@@ -41,7 +41,7 @@ const generateNotes = [
   [
     "@semantic-release/release-notes-generator",
     {
-      preset: "angular",
+      preset: "conventionalcommits",
       presetConfig: {
         types: [
           {
