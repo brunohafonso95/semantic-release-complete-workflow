@@ -42,6 +42,54 @@ const generateNotes = [
     "@semantic-release/release-notes-generator",
     {
       preset: "angular",
+      presetConfig: {
+        types: [
+          {
+            type: "feat",
+            section: ":sparkles: New Features",
+            hidden: false,
+          },
+          {
+            type: "fix",
+            section: ":bug: Fixes",
+            hidden: false,
+          },
+          {
+            type: "docs",
+            section: ":memo: Documentation",
+            hidden: false,
+          },
+          {
+            type: "style",
+            section: ":barber: Style",
+            hidden: false,
+          },
+          {
+            type: "refactor",
+            section: ":zap: Refactor",
+            hidden: false,
+          },
+          {
+            type: "perf",
+            section: ":fast_forward: Performance",
+            hidden: false,
+          },
+          {
+            type: "test",
+            section: ":white_check_mark: Tests",
+            hidden: false,
+          },
+          {
+            type: "ci",
+            section: ":repeat: CI",
+            hidden: false,
+          },
+          {
+            type: "chore",
+            hidden: true,
+          },
+        ],
+      },
       parserOpts: {
         noteKeywords: ["BREAKING CHANGE", "BREAKING CHANGES", "BREAKING"],
       },
@@ -90,7 +138,8 @@ const success = [];
 const addChannel = [];
 
 module.exports = {
-  repositoryUrl: "https://github.com/brunohafonso95/semantic-release-complete-workflow.git",
+  repositoryUrl:
+    "https://github.com/brunohafonso95/semantic-release-complete-workflow.git",
   branches: [
     "+([0-9])?(.{+([0-9]),x}).x",
     "master",
