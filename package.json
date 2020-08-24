@@ -13,6 +13,7 @@
     "@semantic-release/github": "^7.0.7",
     "@semantic-release/npm": "^7.0.5",
     "@semantic-release/release-notes-generator": "^9.0.1",
+    "conventional-changelog-conventionalcommits": "^4.4.0",
     "dotenv-cli": "^3.2.0",
     "semantic-release": "^17.1.1"
   }
