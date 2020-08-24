@@ -41,7 +41,7 @@ const generateNotes = [
   [
     "@semantic-release/release-notes-generator",
     {
-      preset: "eslint",
+      preset: "angular",
       parserOpts: {
         noteKeywords: ["BREAKING CHANGE", "BREAKING CHANGES", "BREAKING"],
       },
